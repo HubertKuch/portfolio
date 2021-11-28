@@ -1,11 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.scss';
+import './_main.scss';
+
+// COMPONENTS
+import Nav from './components/nav';
+import Username from './components/Username';
+import Desc from './components/Desc';
+import Icons from './components/Icons';
 
 export default function App() {
   return (
     <>
-      <div>d</div>
+      <Nav />
+      <Username />
+      <Desc />
+      <Icons />
     </>
   );
 }

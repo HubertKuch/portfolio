@@ -1,0 +1,25 @@
+@import 'base';
+
+html, body, #root{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: $bgcolor1;
+  font-family: $font;
+  font-size: 24px;
+  color: $color;
+}
+
+nav{
+  height: 75px;
+  width: 40%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
