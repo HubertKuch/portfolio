@@ -14,12 +14,35 @@ html, body, #root{
 nav{
   height: 75px;
   min-width: 40%;
-  position: fixed;
+  position: relative;
   right: 0;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landing-page{
+  width: 100%;
+  height: 100%;
+}
+
+.skills-page{
+  display: grid;
+  overflow: auto;
+  min-height: 100%;
+  width: 100%;
+  background-color: $bgcolor2;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 700px) {
+  .skills-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width: 420px) {

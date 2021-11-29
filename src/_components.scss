@@ -34,7 +34,6 @@ a {
   }
 }
 
-
 .desc{
   font-size: $descFontSize;
   position: absolute;
@@ -62,6 +61,56 @@ a {
 .icons > * {
   margin: 10px;
   font-size: $iconsSize;
+}
+
+.skill-image{
+  width: 40px;
+}
+
+.skill-card{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  display: block;
+  overflow: auto;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+  padding: 10px;
+  float: left;
+  margin-top: 100px;
+
+  .bar{
+    height: 15px;
+    width: 100%; 
+    border-radius: 10px;
+    background: $barColor;
+
+    .bar-content{
+      height: 100%;
+      border-radius: inherit;
+      background: $skillBarColor;
+    }
+  }
+
+  .skill-title{
+    font-size: $skillsHeaderFontSize;
+  }
+
+  .skill-desc{
+    font-size: $skillsDescFontSize;
+  }
+
+  .skill{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .skill, .skill-desc{
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 644px) {
