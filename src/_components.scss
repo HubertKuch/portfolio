@@ -34,6 +34,7 @@ a {
   }
 }
 
+
 .desc{
   font-size: $descFontSize;
   position: absolute;
@@ -41,7 +42,7 @@ a {
   top: 50%;
   left: 45%;
   transform: translate(-50%,-50%);
-
+  
   .tag{
     color: $tagColor;
   }
@@ -63,3 +64,19 @@ a {
   font-size: $iconsSize;
 }
 
+@media screen and (max-width: 644px) {
+  .desc{
+    top: 60%;
+    font-size: $descMobileFontSize;
+    width: 60%;
+  }
+
+  .username-block{
+    left: 40%;
+    top: 20%;
+  }
+
+  .icons{
+    top: 90%;
+  }
+}

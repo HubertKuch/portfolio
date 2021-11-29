@@ -13,7 +13,7 @@ html, body, #root{
 
 nav{
   height: 75px;
-  width: 40%;
+  min-width: 40%;
   position: fixed;
   right: 0;
   top: 0;
@@ -22,4 +22,8 @@ nav{
   justify-content: center;
 }
 
-
+@media screen and (max-width: 420px) {
+  nav{
+    display: none;
+  }
+}
