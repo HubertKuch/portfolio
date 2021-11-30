@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SkillsComponent({ title, languages, titleColor }) {
   const languagessMap = languages.map((language) => (
-    <div className="skill">
+    <div className="skill" key={language.id}>
       <img
         src={language.img}
         alt={`${language.name}`}

@@ -7,9 +7,8 @@ export default function Desc() {
       <span className="desc-tag-title">desc</span>
       <span className="tag">&gt;</span>
       <span>
-        {' '}
-        lorem lorem dolar et set ltorelorem dolar et set ltorelorem dolar et set
-        lt{' '}
+        <br />
+        Hi, I am a junior full-stack developer from Poland.
       </span>
       <span className="tag">&lt;/</span>
       <span className="desc-tag-title">desc</span>

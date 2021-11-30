@@ -107,9 +107,45 @@ a {
   }
 }
 
+.purple-color{
+  color: $purple;
+}
+
+.section-header{
+  font-size: $haderFontSize;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin-top: 30px;
+
+  .project{
+    img{
+      width: 100%;
+    }
+
+    .project-title{
+      color: $pink;
+      float: left;
+    }
+
+    .repository{
+      color: $blue;
+      float: right;
+    }
+  }
+}
+
 @media screen and (min-width: 700px) {
   .skill, .skill-desc{
     font-size: 32px;
+  }
+
+  .projects-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
   }
 }
 
