@@ -29,7 +29,6 @@ nav{
 
 .skills-page{
   display: grid;
-  overflow: auto;
   min-height: 100%;
   width: 100%;
   background-color: $bgcolor2;
@@ -41,7 +40,6 @@ nav{
   min-height: 100%;
   max-width: 100%;
   padding: 20px 10px;
-  overflow: auto;
 }
 
 @media screen and (min-width: 740px) {
@@ -53,6 +51,59 @@ nav{
 
   .projects-container{
     padding: 20px 50px;
+  }
+}
+
+.contact-page{
+  min-height: 100%;
+  width: 100%;
+  background: $bgcolor2;
+  display: grid;
+  // gap: 2rem;
+  justify-items: center;
+
+  header{
+    width: 100%;
+  }
+
+  li{
+    clear: both;
+  }
+  
+  .contact-info, .send-email-section{
+    height: 90%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.03);
+    position: relative;
+    margin: 30px 0;
+    padding: 10px;
+  }
+
+  .contact-property {
+    margin-top: 25px;
+  }
+
+  .contact-info{
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 726px) {
+  .contact-page{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 90%;
+
+    header{
+      grid-row: 1/2;
+    }
+
+    .contact-info{
+      grid-row: 2/3;
+    }
+  
+    .send-email-section{
+      grid-row: 2/3;
+    }
   }
 }
 

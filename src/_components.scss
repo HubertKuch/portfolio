@@ -111,8 +111,29 @@ a {
   color: $purple;
 }
 
+.pink-color{
+  color: $pink;
+}
+
 .section-header{
   font-size: $haderFontSize;
+}
+
+.contact-page{
+  .contact-property{
+    color: $purple;
+    font-size: $contactHeaderFontSize;
+  }
+  
+  .contact-value{
+    font-size: 22px;
+    margin-left: 30px;
+
+    a{
+      text-decoration: underline;
+      text-decoration-color: whitesmoke;
+    }
+  }
 }
 
 .projects-container{
@@ -135,6 +156,52 @@ a {
       color: $blue;
       float: right;
     }
+  }
+}
+
+.send-email-section{
+  label span{
+    font-size: $contactEmailFontSize;
+  }
+
+  input, textarea{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: $contactEmailFontSize;
+    color: #fff;
+    padding: 5px;
+  }
+
+  input{
+    height: 40px;
+  }
+
+  textarea{
+    width: 90%;
+    resize: none;
+    height: 350px;
+  }
+
+  button{
+    position: absolute;
+    width: 183.34px;
+    height: 42.59px;
+    background: rgba(53, 72, 242, 0.92);
+    border-radius: 17px;
+    line-height: 22px;
+    font-size: $contactEmailFontSize;
+    color: #fff;
+    border: none;
+    position: absolute;
+    left: 50%;
+    margin: 40px 0 0;
+    transform: translateX(-50%);
   }
 }
 

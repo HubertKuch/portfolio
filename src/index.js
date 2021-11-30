@@ -8,6 +8,7 @@ import Nav from './components/nav';
 import Landing from './sections/Landing';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
+import Contact from './sections/Contact';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Landing />
       <Skills />
       <Projects />
+      <Contact />
     </>
   );
 }
