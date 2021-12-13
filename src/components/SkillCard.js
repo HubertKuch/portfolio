@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function SkillsComponent({ title, languages, titleColor }) {
-  const languagessMap = languages.map((language) => (
-    <div className="skill" key={language.id}>
+  const languagesMap = languages.map((language) => (
+    <div className="skill fade" key={language.id}>
       <img
         src={language.img}
         alt={`${language.name}`}
@@ -14,7 +14,7 @@ export default function SkillsComponent({ title, languages, titleColor }) {
         <div
           className="bar-content"
           style={{ width: `${language.percent}%` }}
-        ></div>
+        />
       </div>
     </div>
   ));
@@ -24,7 +24,7 @@ export default function SkillsComponent({ title, languages, titleColor }) {
       <div className="skill-title" style={{ color: titleColor }}>
         {title}
       </div>
-      <div>{languagessMap}</div>
+      <div>{languagesMap}</div>
     </div>
   );
 }

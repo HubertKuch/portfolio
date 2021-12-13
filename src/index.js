@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './_main.scss';
+
 // COMPONENTS
 import Nav from './components/nav';
 

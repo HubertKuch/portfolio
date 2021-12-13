@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Project({ img, title, repo, pageLink }) {
+export default function Project({ img, title, repo, pageLink, duration }) {
   return (
-    <div className="project">
+    <div className="project fade" style={{ transitionDuration: `${duration}s` }}>
       <a rel="noreferrer" target="_blank" href={pageLink}>
         <img src={img} alt="project" />
       </a>

@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Username() {
   return (
-    <div className="username-block">
-      <div className="typing-overlay"></div>
+    <div className="username-block fade">
+      <div className="typing-overlay" />
       <span>
         Hi, I'm
         <span className="username">

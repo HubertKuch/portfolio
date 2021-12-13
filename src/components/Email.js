@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Email() {
   return (
-    <div className="send-email-section">
+    <div className="send-email-section fade">
       <header>
         <span className="section-header">
           or send me

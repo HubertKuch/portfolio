@@ -146,7 +146,7 @@ a {
     color: $purple;
     font-size: $contactHeaderFontSize;
   }
-  
+
   .contact-value{
     font-size: 22px;
     margin-left: 30px;
@@ -157,6 +157,8 @@ a {
     }
   }
 }
+
+// PROJECTS
 
 .projects-container{
   display: grid;
@@ -180,6 +182,18 @@ a {
     }
   }
 }
+
+//FADE TRANSITION
+.fade{
+  opacity: 0;
+}
+
+.fade-appear{
+  opacity: 1;
+  transition: opacity 1.5s ease-in 200ms;
+}
+
+//EMAIL SECTION
 
 .send-email-section{
   label span{
