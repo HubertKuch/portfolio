@@ -3,7 +3,7 @@ import Project from '../components/Project';
 
 export default function Projects() {
   return (
-    <section className="projects-page">
+    <section id="projects-page">
       <span className="section-header">
         My <span className="purple-color">projects</span>
       </span>
@@ -21,7 +21,13 @@ export default function Projects() {
           repo="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg"
           pageLink="http://localhost:3000/"
           duration={2}
-        />
+        /> <Project
+        img="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg"
+        title="Pilio"
+        repo="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg"
+        pageLink="http://localhost:3000/"
+        duration={2}
+      />
       </main>
     </section>
   );

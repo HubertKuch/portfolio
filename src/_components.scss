@@ -141,7 +141,7 @@ a {
   font-size: $haderFontSize;
 }
 
-.contact-page{
+#contact-page{
   .contact-property{
     color: $purple;
     font-size: $contactHeaderFontSize;
@@ -158,8 +158,12 @@ a {
   }
 }
 
-// PROJECTS
+.go-to-top-icon{
+  font-size: 50px;
+  color: #1877F2;
+}
 
+// PROJECTS
 .projects-container{
   display: grid;
   grid-template-columns: 1fr;

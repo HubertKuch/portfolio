@@ -24,7 +24,6 @@ class FadeEffect{
         this.visibleElements.push(fade);
       }
     });
-    console.log(this.visibleElements)
     return this;
   }
 

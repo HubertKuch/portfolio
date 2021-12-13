@@ -4,7 +4,7 @@ import SkillCard from '../components/SkillCard';
 
 // images
 import js from '../images/js.png';
-import css from '../images/css3.png';
+import css from '../images/css3.webp';
 import html5 from '../images/html5.png';
 import react from '../images/react.png';
 import tailwind from '../images/tailwind.png';
@@ -128,5 +128,5 @@ const skillsMap = skills.map((skill) => (
 ));
 
 export default function Skills() {
-  return <section className="skills-page">{skillsMap}</section>;
+  return <section id="skills-page">{skillsMap}</section>;
 }

@@ -6,7 +6,7 @@ import Icons from '../components/Icons';
 
 export default function landing() {
   return (
-    <section className="landing-page">
+    <section id={"landing-page"} >
       <Username />
       <Desc />
       <Icons />

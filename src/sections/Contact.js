@@ -5,7 +5,7 @@ import Email from '../components/Email';
 
 export default function Contact() {
   return (
-    <section className="contact-page">
+    <section id="contact-page">
       <header>
         <span className="section-header">
           <span className="pink-color">Contact</span> with me

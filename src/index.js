@@ -4,6 +4,7 @@ import './_main.scss';
 
 // COMPONENTS
 import Nav from './components/nav';
+import GoToTop from "./components/GoToTop";
 
 // SECTIONS
 import Landing from './sections/Landing';
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <>
       <Nav />
+      <GoToTop />
       <Landing />
       <Skills />
       <Projects />
