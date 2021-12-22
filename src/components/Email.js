@@ -1,4 +1,24 @@
 import React from 'react';
+import { createTransport } from 'nodemailer';
+
+const emailTransporter = createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'contanthubertkuch@gmail.com',
+    pass: 'Megahaslo123'
+  }
+});
+
+const mail = {
+  from: 'contanthubertkuch@gmail.com',
+  to: 'kuchhubert@gmail.com',
+  subject: 'test email',
+  text: 'test'
+}
+
+emailTransporter.sendMail(mail, (err, data)=>{
+  console.log(err, data)
+});
 
 export default function Email() {
   return (
