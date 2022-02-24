@@ -2,6 +2,31 @@ import React from 'react';
 import Project from '../components/Project';
 import authImage from '../images/auth.png';
 
+const projects = [
+    {
+        imgSrc: authImage,
+        title: "Node auth template",
+        repo: "https://github.com/HubertKuch/auth-api",
+        page: "https://github.com/HubertKuch/auth-api",
+        duration: 1,
+    },
+    {
+        imgSrc: authImage,
+        title: "EasyRouter: PHP framework",
+        repo: "https://github.com/HubertKuch/EasyRouter",
+        page: "https://github.com/HubertKuch/EasyRouter",
+        duration: 1,
+    },
+    {
+        imgSrc: authImage,
+        title: "City builder game",
+        repo: "https://github.com/HubertKuch/simcity",
+        page: "https://github.com/HubertKuch/simcity",
+        duration: 1,
+    },
+]
+
+
 export default function Projects() {
   return (
     <section id="projects-page">
@@ -9,13 +34,17 @@ export default function Projects() {
         My <span className="purple-color">projects</span>
       </span>
       <main className="projects-container">
-        <Project
-          img={authImage}
-          title="Node auth template"
-          repo="https://github.com/HubertKuch/auth-api"
-          pageLink="https://github.com/HubertKuch/auth-api"
-          duration={1}
-        />
+          {
+              projects.map(({imgSrc, page, repo, duration, title}) => {
+                 return <Project
+                    title={title}
+                    duration={duration}
+                    img={imgSrc}
+                    repo={repo}
+                    pageLink={page}
+                 />
+              })
+          }
       </main>
     </section>
   );
