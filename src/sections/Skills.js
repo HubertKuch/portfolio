@@ -16,6 +16,7 @@ import express from '../images/express.png';
 
 import mongo from '../images/mongo.png';
 import mysql from '../images/mysql.png';
+import postgres from '../images/postgresql.png';
 
 const skills = [
   {
@@ -105,15 +106,22 @@ const skills = [
         name: 'MySQL',
         desc: 'lorem ipsum dolar set',
         img: mysql,
-        percent: 70,
+        percent: 80,
       },
       {
         id: 2,
         name: 'MongoDB',
         desc: 'lorem ipsum dolar set',
         img: mongo,
-        percent: 50,
+        percent: 80,
       },
+      {
+        id: 3,
+        name: 'PostgresSQL',
+        desc: 'lorem ipsum dolar set',
+        img: postgres,
+        percent: 60,
+      }
     ],
   },
 ];
