@@ -11,6 +11,7 @@ import Landing from './sections/Landing';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

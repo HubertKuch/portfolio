@@ -1,5 +1,9 @@
 @import 'base';
 
+* {
+  box-sizing: border-box;
+}
+
 html, body, #root{
   height: 100%;
   width: 100%;
@@ -73,7 +77,6 @@ nav{
   width: 100%;
   background: $bgcolor2;
   display: grid;
-  // gap: 2rem;
   justify-items: center;
 
   header{
@@ -89,7 +92,7 @@ nav{
     width: 80%;
     background: rgba(255, 255, 255, 0.03);
     position: relative;
-    margin: 30px 0;
+    margin: 30px 0 150px;
     padding: 10px;
   }
 
@@ -99,6 +102,61 @@ nav{
 
   .contact-info{
     margin-right: 10px;
+  }
+}
+
+footer {
+  background: $footerColor;
+  width: 100%;
+  height: 180px;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  .footer--header {
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+
+    a {
+      font-size: 1.5rem;
+    }
+
+    a:first-child {
+      margin: 0 20px 0 0;
+    }
+
+    .footer--media, .footer--contact {
+      height: 100%;
+      width: 50%;
+      float: left;
+
+      .media__container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+
+      .contact__container {
+        text-align: center;
+
+        a {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    width: 100%;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
   }
 }
 

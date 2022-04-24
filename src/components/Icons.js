@@ -12,7 +12,7 @@ export default function Icons() {
         <i className="fab fa-github"></i>
       </a>
       <a
-        href="https://www.facebook.com/hubert.kuch.52/"
+        href="https://www.facebook.com/monia.dawid/"
         rel="noreferrer"
         target="_blank"
         aria-label="facebook link"
