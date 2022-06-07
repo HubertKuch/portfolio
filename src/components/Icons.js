@@ -19,7 +19,7 @@ export default function Icons() {
         target="_blank"
         aria-label="facebook link"
       >
-          <img src={facebookSVGIcon} alt="facebook account" className={"icons__icon"}/>
+          <img src={facebookSVGIcon} alt="facebook account" className={"icons__icon icon"}/>
       </a>
     </div>
   );
