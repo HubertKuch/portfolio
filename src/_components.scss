@@ -1,4 +1,4 @@
-/* 
+/*
 * TODO: ADD RED COLOR TO ACTIVE ROUTE
 */
 
@@ -49,7 +49,7 @@ a {
     }
   }
 
-  
+
   .username{
     color: $usernameColor;
     margin-left: 60px;
@@ -63,11 +63,11 @@ a {
   top: 50%;
   left: 45%;
   transform: translate(-50%,-50%);
-  
+
   .tag{
     color: $tagColor;
   }
-  
+
   .desc-tag-title{
     color: $descColor;
   }
@@ -85,12 +85,21 @@ a {
   font-size: $iconsSize;
 }
 
+.icon {
+  float: left;
+  width: 35px;
+  margin: 0 0 0 15px;
+}
+
+.skill__icon--check {
+  margin: 0 15px 0 5px;
+}
+
 .skill-image{
   width: 40px;
 }
 
 .skill-card{
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   width: 80%;
   position: relative;
@@ -105,7 +114,7 @@ a {
 
   .bar{
     height: 15px;
-    width: 100%; 
+    width: 100%;
     border-radius: 10px;
     background: $barColor;
 
@@ -125,7 +134,10 @@ a {
   }
 
   .skill{
-    margin-top: 40px;
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 4px;
   }
 }
 

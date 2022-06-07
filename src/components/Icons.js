@@ -1,4 +1,6 @@
 import React from 'react';
+import githubSVGIcon from '../icons/github.svg';
+import facebookSVGIcon from '../icons/facebook.svg';
 
 export default function Icons() {
   return (
@@ -9,7 +11,7 @@ export default function Icons() {
         target="_blank"
         aria-label="github link"
       >
-        <i className="fab fa-github"></i>
+          <img src={githubSVGIcon} alt="github account" className={"icons__icon icon"}/>
       </a>
       <a
         href="https://www.facebook.com/monia.dawid/"
@@ -17,7 +19,7 @@ export default function Icons() {
         target="_blank"
         aria-label="facebook link"
       >
-        <i className="fab fa-facebook"></i>
+          <img src={facebookSVGIcon} alt="facebook account" className={"icons__icon"}/>
       </a>
     </div>
   );
