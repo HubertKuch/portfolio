@@ -1,7 +1,5 @@
 import React from 'react';
 
-const $ = _ => document.querySelector(_);
-
 const items = [
   {
     id: 1,
@@ -11,27 +9,31 @@ const items = [
   {
     id: 2,
     name: 'About me',
-    elem: "#",
+    elem: "#about-me-page",
   },
   {
     id: 3,
+    name: 'Experience',
+    elem: "#about-me-page",
+  },
+  {
+    id: 4,
     name: 'Skills',
     elem: "#skills-page",
   },
   {
-    id: 4,
+    id: 5,
     name: 'Projects',
     elem: "#projects-page",
   },
   {
-    id: 5,
+    id: 6,
     name: 'Contact',
     elem: "#contact-page",
   },
 ];
 const navItems = items.map(({id, name, elem}) => (
   <li key={id}>
-    {/* eslint-disable-next-line */}
     <a href={elem}>{name}</a>
   </li>
 ));
