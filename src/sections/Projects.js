@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/Project';
 import authImage from '../images/auth.png';
+import avocadoBanner from '../images/avocado-banner.png';
 
 const projects = [
     {
@@ -11,17 +12,10 @@ const projects = [
         duration: 1,
     },
     {
-        imgSrc: authImage,
-        title: "EasyRouter: PHP framework",
-        repo: "https://github.com/HubertKuch/EasyRouter",
-        page: "https://github.com/HubertKuch/EasyRouter",
-        duration: 1,
-    },
-    {
-        imgSrc: authImage,
-        title: "City builder game",
-        repo: "https://github.com/HubertKuch/simcity",
-        page: "https://github.com/HubertKuch/simcity",
+        imgSrc: avocadoBanner,
+        title: "Avocado: framework for PHP",
+        repo: "https://github.com/HubertKuch/Avocado",
+        page: "https://avocadoframework.com",
         duration: 1,
     },
 ]
