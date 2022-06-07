@@ -51,6 +51,14 @@ const skills = [
         id: 3,
         name: 'Express',
       },
+      {
+        id: 4,
+        name: "TypeScript"
+      },
+      {
+        id: 5,
+        name: "SpringBoot"
+      }
     ],
   },
   {
