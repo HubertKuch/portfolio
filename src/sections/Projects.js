@@ -23,7 +23,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects-page">
+    <section id="projects-page" className={"page-section"}>
       <span className="section-header">
         My <span className="purple-color">projects</span>
       </span>

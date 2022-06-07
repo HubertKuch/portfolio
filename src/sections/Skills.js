@@ -115,5 +115,5 @@ const skillsMap = skills.map((skill) => (
 ));
 
 export default function Skills() {
-  return <section id="skills-page">{skillsMap}</section>;
+  return <section id="skills-page" className={"page-section"}>{skillsMap}</section>;
 }
