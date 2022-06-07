@@ -27,7 +27,7 @@ const skills = [
       {
         id: 1,
         name: 'JavaScript',
-        desc: 'lorem ipsum dolar set',
+        desc: '',
         img: js,
         percent: 70,
       },

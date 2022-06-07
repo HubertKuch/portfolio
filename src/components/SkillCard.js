@@ -1,21 +1,12 @@
 import React from 'react';
+import checkSVG from '../icons/circle-check.svg';
 
 export default function SkillsComponent({ title, languages, titleColor }) {
   const languagesMap = languages.map((language) => (
     <div className="skill fade" key={language.id}>
-      <img
-        src={language.img}
-        alt={`${language.name}`}
-        className="skill-image"
-      />
-      <span className="skill-name">{language.name} - </span>
-      <span className="skill-desc">{language.desc}</span>
-      <div className="bar">
-        <div
-          className="bar-content"
-          style={{ width: `${language.percent}%` }}
-        />
-      </div>
+      <span className="skill-name">
+          <img className={"skill__icon--check icon"} src={checkSVG} alt=""/>
+          {language.name}</span>
     </div>
   ));
 
