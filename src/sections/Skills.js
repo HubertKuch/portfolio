@@ -2,22 +2,6 @@ import React from 'react';
 
 import SkillCard from '../components/SkillCard';
 
-// images
-import js from '../images/js.png';
-import css from '../images/css3.webp';
-import html5 from '../images/html5.png';
-import react from '../images/react.png';
-import tailwind from '../images/tailwind.png';
-import sass from '../images/sass.png';
-
-import node from '../images/node.png';
-import php from '../images/php.png';
-import express from '../images/express.png';
-
-import mongo from '../images/mongo.png';
-import mysql from '../images/mysql.png';
-import postgres from '../images/postgresql.png';
-
 const skills = [
   {
     id: 1,
@@ -27,44 +11,26 @@ const skills = [
       {
         id: 1,
         name: 'JavaScript',
-        desc: '',
-        img: js,
-        percent: 70,
       },
       {
         id: 2,
         name: 'CSS3',
-        desc: 'lorem ipsum dolar set',
-        img: css,
-        percent: 85,
       },
       {
         id: 3,
         name: 'HTML5',
-        desc: 'lorem ipsum dolar set',
-        img: html5,
-        percent: 90,
       },
       {
         id: 4,
         name: 'React',
-        desc: 'lorem ipsum dolar set',
-        img: react,
-        percent: 20,
       },
       {
         id: 5,
         name: 'Tailwind',
-        desc: 'lorem ipsum dolar set',
-        img: tailwind,
-        percent: 60,
       },
       {
         id: 6,
         name: 'SASS',
-        desc: 'lorem ipsum dolar set',
-        img: sass,
-        percent: 50,
       },
     ],
   },
@@ -76,23 +42,14 @@ const skills = [
       {
         id: 1,
         name: 'NodeJS',
-        desc: 'lorem ipsum dolar set',
-        img: node,
-        percent: 65,
       },
       {
         id: 2,
         name: 'PHP',
-        desc: 'lorem ipsum dolar set',
-        img: php,
-        percent: 30,
       },
       {
         id: 3,
         name: 'Express',
-        desc: 'lorem ipsum dolar set',
-        img: express,
-        percent: 80,
       },
     ],
   },
@@ -104,23 +61,14 @@ const skills = [
       {
         id: 1,
         name: 'MySQL',
-        desc: 'lorem ipsum dolar set',
-        img: mysql,
-        percent: 80,
       },
       {
         id: 2,
         name: 'MongoDB',
-        desc: 'lorem ipsum dolar set',
-        img: mongo,
-        percent: 80,
       },
       {
         id: 3,
         name: 'PostgresSQL',
-        desc: 'lorem ipsum dolar set',
-        img: postgres,
-        percent: 60,
       }
     ],
   },
