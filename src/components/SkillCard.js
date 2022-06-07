@@ -6,13 +6,13 @@ export default function SkillsComponent({ title, languages, titleColor }) {
     <div className="skill fade" key={language.id}>
       <span className="skill-name">
           <img className={"skill__icon--check icon"} src={checkSVG} alt=""/>
-          {language.name}</span>
+      {language.name}</span>
     </div>
   ));
 
   return (
     <div className="skill-card">
-      <div className="skill-title" style={{ color: titleColor }}>
+      <div className="skill-title fade" style={{ color: titleColor }}>
         {title}
       </div>
       <div>{languagesMap}</div>

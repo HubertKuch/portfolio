@@ -58,7 +58,7 @@ const skills = [
       {
         id: 5,
         name: "SpringBoot"
-      }
+      },
     ],
   },
   {
@@ -77,6 +77,29 @@ const skills = [
       {
         id: 3,
         name: 'PostgresSQL',
+      }
+    ],
+  },
+  {
+    id: 3,
+    title: 'Other',
+    color: '#d147ef',
+    languages: [
+      {
+        id: 1,
+        name: 'DigitalOcean',
+      },
+      {
+        id: 2,
+        name: 'Linux',
+      },
+      {
+        id: 3,
+        name: 'Nginx',
+      },
+      {
+        id: 4,
+        name: "Git"
       }
     ],
   },
